@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "RagnaXP Market Search",
+  "description": "This extension gives ability to search at RagnaXP (Ragnarok private server)",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Busca mercado RagnaXP"
+  },
+  "permissions": [
+    "https://ajax.googleapis.com/"
+  ]
+}
